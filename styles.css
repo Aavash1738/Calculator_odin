@@ -9,7 +9,8 @@ body{
 }
 
 .calculator{
-    background-color:blanchedalmond;
+    
+background-color:#A9A9A9;
     border-radius: 10%;
     display: flex;
     flex-direction: column;
@@ -26,6 +27,8 @@ body{
 
 .number, .operator{
     font-size: 20px;
+color:#000000;
+	background-color:#D3D3D3;
 }
 
 .display{
@@ -52,6 +55,7 @@ body{
 
 .operator, .clear, .equals{
     border: 1px solid beige;
+background-color:grey;
 }
 
 .number:hover{
